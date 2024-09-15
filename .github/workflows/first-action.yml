@@ -1,0 +1,15 @@
+# This workflow is just to learn the syntax and print using shell commands
+name: My First Github Action
+on: workflow_dispatch
+
+# This workflow has one job with three steps for logging
+jobs:
+  logger:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Begin Logging
+        run: echo "------- My First Github Action Logger -------"
+      - name: Main Logging
+        run: echo "Hello World!"
+      - name: End Logging
+        run: echo "------- My First Github Action Logger -------"
