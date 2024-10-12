@@ -8,3 +8,5 @@ jobs:
     steps:
       - name: Run Hello World
         run: echo "Hello World!"
+      - name: Run Complete step
+        run: echo "Done - Thank you!"
